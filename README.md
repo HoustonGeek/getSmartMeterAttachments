@@ -8,10 +8,11 @@ pip install the following:
 
 setup a google gMail api and OAuth authentication for a project on console.cloud.google.com (see https://www.youtube.com/watch?v=I5ili_1G0Vk&t=0s)
 
-save the OAuth client token and put into script, line 62
+save the OAuth client token and put the file name into script, line 62
 
 
 python sync.py once to create the inital tokens needed for authent<br/>
 python sync.py to download attachments
 
-main code courtesy of https://learndataanalysis.org/source-code-save-gmail-email-attachments-with-gmail-api-in-python/
+
+main and library code courtesy of https://learndataanalysis.org/source-code-save-gmail-email-attachments-with-gmail-api-in-python/
